@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="shortcut icon" href="Assets/img/Logo/Newie-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+<script>
+    document.getElementById("shopping1").addEventListener("click", function() {
+    window.location.href = "dashboard.html";
+});
+
+document.getElementById("cart-redirect").addEventListener("click", function() {
+    window.location.href="cart.html"; 
+});
+</script>
+
+    <div class="header">
+        <h1><img src="Assets/img/Logo/Newie-removebg-preview.png" alt="Shopping Mart Logo" srcset="" height="90px"></h1>
+        <div class="deliver" id="deliver">
+            <i class="fas fa-light fa-location-dot"></i>
+            <p>Deliver to User <br>Mumbai - 400069</p>
+        </div>
+
+        <div class="search">
+            <div class="searchBox">
+                <select name="select" id="search-selection">
+                    <option value="">All</option>
+                    <option value="Mens">Mens</option>
+                    <option value="Mens Shirts">Mens Shirts</option>
+                    <option value="Mens Shoes">Mens Shoes</option>
+                    <option value="Womens">Womens</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Gift card">Gift card</option>
+
+
+                </select>
+            </div>
+            <div class="input">
+                <input type="text" id="searchInput" placeholder="Search on Shopping mart.in"/>
+            </div>
+            <div class="button">
+                <button type="submit" class="searchButton" id="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>  
+            </div>
+            <div id="suggestions" class="suggestions-box"></div>
+        </div>
+
+        
+
+    <div class="cart-profile">
+        <div class="cart" id="cart-redirect">
+            <span class="cart-icon">
+                <i class="fas fa-light fa-cart-shopping"></i>
+            </span>
+            <span class="cart-items-count" id="cartItemCount">0</span>
+        </div>
+
+        <div class="profile">
+            <a href="dashboard.html"><i class="fa-regular fa-circle-user"></i></a>
+
+        </div>
+    </div>
+        <div class="bars">
+            
+            <i class="fas fa-regular fa-bars"></i><br>
+            
+            <div class="bars-icon-slidebar">
+                <button type="button"><a href="bars.html"><i class="fas fa-regular fa-bars" style="color: white;"></a></i></button><br><br>
+                
+                <ul>
+                    <li><a href="#"><h2>Your Orders</h2></a></li><br>
+                    <li><a href="#"><h2>Track Orders</h2></a></li><br>
+                    <li><a href="#"><h2>Wishlist</h2></a></li><br>
+                    <li><a href="#"><h2>Contact</h2></a></li><br>
+                </ul>
+            </div>
+        </div>
+        
+    
+
+        
+        
+    </div>
+    <hr>
+
+<!-------------------------------------Header Complete------------------------------------------>
+
+
+<!---------------------------------------BackGround Image Adv----------------------------------->
+            <div class="top-bgscreen">
+                <img src="Assets/img/BackGround/Boult_3000x1200-PC._CB543542644_.jpg" alt="Boult headphone Png">    
+                <div class="fade-overlay"></div>
+            </div>
+
+
+<!--------------------------------------Advertisements and Suggestions----------------------->
+<div class="top-adv" id="shopping1">
+    <div class="top-adv1">
+        
+        <h3 id="shopping1">Start Shopping</h3>
+        <h3 id="shopping1">from Casuals</h3>
+                    
+        <a href="shirt.html">  
+                    <div class="adv-containers1 adv-con">
+                    </div>
+                  </a>  
+                  <a href="shirt.html">
+                    <div class="adv-containers2 adv-con">
+                        
+                    </div></a>
+                    <a href="shirt.html">
+                    <div class="adv-containers3 adv-con">
+                    
+                    </div></a>
+                    <a href="shirt.html">
+                    <div class="adv-containers4 adv-con">
+                    
+                    </div></a>
+                  
+                </div>
+              
+
+
+                <div class="top-adv2">
+        
+        <h3 id="shopping1">Start Shopping</h3>
+        <h3 id="shopping1">from Casuals</h3>
+                    
+                    <div class="adv-containers5 adv-con">
+                        
+                    </div>
+                    <div class="adv-containers6 adv-con">
+                        
+                    </div>
+                    <div class="adv-containers7 adv-con">
+                    
+                    </div>
+                    <div class="adv-containers8 adv-con">
+                    
+                    </div>
+                </div>
+
+                <div class="top-adv3">
+        
+        <h3 id="shopping1">Start Shopping</h3>
+        <h3 id="shopping1">from Shoes</h3>
+                    
+                    <a href="shoes.html"><div class="adv-containers9 adv-con">
+                        
+                    </div></a>
+                    <a href="shoes.html"><div class="adv-containers10 adv-con">
+                        
+                    </div></a>
+                    <a href="shoes.html"><div class="adv-containers11 adv-con">
+                    
+                    </div></a>
+                    <a href="shoes.html"><div class="adv-containers12 adv-con">
+                    
+                    </div></a>
+                </div>
+            </div>
+                
+            
+            
+
+<!-------------------------------------Side Redirects for Shopping------------------------------>
+
+<div class="redirect-container">
+    <span class="side-redirects">
+        <ul>
+            
+            <a href="shirt.html" class="redirects"><h3 style="color: black;">Mens Wear</h3></a>
+            <a href="shoes.html" class="redirects"><h3 style="color: black">Shoes</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Kids Wear</h3></a>
+            <a href="shirt.html" class="redirects"><h3 style="color: black;">Mens Shirts</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Mens T-Shirts</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Womens Shirts</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Womens T-shirt</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Kids Shirt</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Kids T-Shirt</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Electronics</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Home Appliances</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Mobiles</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">TV & Laptops</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Electronic Accesories</h3></a>
+            <a href="" class="redirects"><h3 style="color: black;">Health Care</h3></a>
+            
+        </ul>
+    </span>
+</div>
+
+
+
+<!-----------------------------------------Shopping-------------------------------------------->
+            <div class="boxes">
+                
+             
+              
+            <a href="DEELMO-Shirt.html">
+                 <div class="box1 box">
+                    <img src="Assets/img/Shopping/Shirt/DEELMO-Shirt.3.jpg" alt="DEELMO Men's Casual Button Down Shirts Long Sleeve Linen Shirt Fashion Textured Beach Summer Shirt">
+                    <h3>DEELMO Men's Casual Shirt Wine</h3>
+                    <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-50%</h2>
+                      <h2 style="color: black; margin-top: 24px;">399</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">799</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>
+                  </div></a>
+
+            <a href="bruton.html">
+                 <div class="box5 box">
+                    <img src="Assets/img/Shopping/Shoes/shoes1.1.jpg" alt="DEELMO Men's Casual Button Down Shirts Long Sleeve Linen Shirt Fashion Textured Beach Summer Shirt">
+                    <h3>BRUTON EVA Lite Sport Shoes Running Shoes for Men- White</h3>
+                    <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-80%</h2>
+                      <h2 style="color: black; margin-top: 24px;">495</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">2499</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>
+                  </div></a>        
+
+                  
+
+            <a href="d-black.html">
+                <div class="box2 box">
+                    <img src="Assets/img/Shopping/Shirt/Deelmo-Color-Options/Black/black1.jpg" alt="">
+                    <h3>DEELMO Men's Casual Shirt Black</h3>
+                    <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-40%</h2>
+                      <h2 style="color: black; margin-top: 24px;">479</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">799</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>
+                </div></a>
+
+            <a href="cruiser.html">
+                <div class="box4 box">
+                    <img src="Assets/img/Shopping/Shoes/shoes4.1.jpg" alt="">
+                    <h3 style="font-size: 15px;">CRUISER <br>Sneaker for Men Lightweight Breathable Lace-Up Shoes</h3>
+                  <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-60%</h2>
+                      <h2 style="color: black; margin-top: 24px;">999</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">2499</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>  
+                  </div></a>    
+               
+            <a href="asian.html">
+                <div class="box3 box">
+                    <img src="Assets/img/Shopping/Shoes/shoes3.1.webp" alt="">
+                    <h3>ASIAN THUNDER-07 Casual Sneaker and Trendy Shoes</h3>
+                    <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-55%</h2>
+                      <h2 style="color: black; margin-top: 24px;">669</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">1499</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>
+                </div></a>  
+                
+
+            <a href="bata.html">
+                <div class="box6 box">
+                    <img src="Assets/img/Shopping/Shoes/shoes2.1.jpg" alt="">
+                    <h3>Bata <br>Men Pull On Loafers Black Polished</h3>
+                    <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-43%</h2>
+                      <h2 style="color: black; margin-top: 24px;">340</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">599</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>
+                </div></a>      
+
+            <a href="d-blue.html">
+                <div class="box3 box">
+                    <img src="Assets/img/Shopping/Shirt/Deelmo-Color-Options/Light-Blue/blue1.jpg" alt="">
+                    <h3>DEELMO Men's Casual Shirt Blue</h3>
+                    <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-40%</h2>
+                      <h2 style="color: black; margin-top: 24px;">479</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">799</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>
+                </div></a>
+
+            <a href="d-green.html">
+                <div class="box4 box">
+                    <img src="Assets/img/Shopping/Shirt/Deelmo-Color-Options/Light-Green/green1.jpg" alt="">
+                    <h3>DEELMO Men's Casual Shirt Green</h3>
+                  <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-40%</h2>
+                      <h2 style="color: black; margin-top: 24px;">479</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">799</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>  
+                  </div></a>
+                
+                <a href="d-pink.html">
+                <div class="box5 box">
+                    <img src="Assets/img/Shopping/Shirt/Deelmo-Color-Options/Pink/pink1.jpg" alt="">
+                    <h3>DEELMO Men's Casual Shirt Pink</h3>
+                  <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-40%</h2>
+                      <h2 style="color: black; margin-top: 24px;">479</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">799</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>  
+                  </div></a>
+
+                  <a href="d-peach.html">
+                <div class="box6 box">
+                    <img src="Assets/img/Shopping/Shirt/Deelmo-Color-Options/Peach/peach1.jpg" alt="">
+                    <h3>DEELMO Men's Casual Shirt Peach</h3>
+                  <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-40%</h2>
+                      <h2 style="color: black; margin-top: 24px;">479</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">799</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>  
+                  </div></a>
+
+                <a href="d-chiku.html">
+                <div class="box7 box">
+                    <img src="Assets/img/Shopping/Shirt/Deelmo-Color-Options/Chiku/chiku1.jpg" alt="">
+                    <h3>DEELMO Men's Casual Shirt Chiku</h3>
+                  <span style="display: flex; margin-top: -30px; gap: 10px; font-size: 14px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: 100;">
+                      <h2 style="color: red; justify-content: start; margin-top: 24px;">-40%</h2>
+                      <h2 style="color: black; margin-top: 24px;">479</h2> 
+                      <h3 style="color: black; text-decoration: line-through; margin-top: 32px; color: red; margin-left: 5px; font-size: 13px;">799</h3>
+                      <p style="font-size: 15px; color: black; margin-top: 80px; margin-left: -156px;">FREE delivery Mon, <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; ">28 Jul </b> your first order in this category
+                        Or Prime members get FREE delivery <b style="font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Sun, 27 Jul</b></p>
+                      
+                      </span>  
+                  </div></a>
+
+            
+
+            
+                
+            
+
+            
+
+            
+
+                
+            </div>
+
+
+    <script src="script.js"></script>
+    <script>
+        function updateCartCount() {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    let count = 0;
+    cart.forEach(item => count += item.qty);
+    document.getElementById('cartCount').innerText = count;
+}
+
+window.onload = updateCartCount;
+
+document.getElementById("cart-redirect").addEventListener("click", function() {
+    window.location.href="cart.html"; 
+});
+
+
+
+  let cart = JSON.parse(localStorage.getItem('cart')) || {};
+
+  function saveCart() {
+    localStorage.setItem('cart', JSON.stringify(cart));
+  }
+
+  function addToCart(productId) {
+    const product = {
+      id: productId,
+      name: "DEELMO Men's Casual Shirt",
+      price: 399,
+      image: "Assets/img/Shopping/Shirt/DEELMO-Shirt.3.jpg",
+      quantity: 1
+    };
+
+    if (cart[productId]) {
+      cart[productId].quantity += 1;
+    } else {
+      cart[productId] = product;
+    }
+
+    saveCart();
+    updateCartUI();
+    updateProductUI(productId);
+  }
+
+  function changeQty(productId, change) {
+    if (!cart[productId]) return;
+
+    cart[productId].quantity += change;
+    if (cart[productId].quantity <= 0) {
+      delete cart[productId];
+    }
+
+    saveCart();
+    updateCartUI();
+    updateProductUI(productId);
+  }
+
+  function updateCartUI() {
+    const totalItems = Object.values(cart).reduce((sum, item) => sum + item.quantity, 0);
+    document.getElementById("cart-item-count").innerText = totalItems;
+  }
+
+  function updateProductUI(productId) {
+    const container = document.querySelector(`#${productId} .cart-actions`);
+    if (!cart[productId]) {
+      container.innerHTML = `<button onclick="addToCart('${productId}')">Add to Cart</button>`;
+    } else {
+      container.innerHTML = `
+        <button onclick="changeQty('${productId}', -1)">-</button>
+        <span>${cart[productId].quantity}</span>
+        <button onclick="changeQty('${productId}', 1)">+</button>
+      `;
+    }
+  }
+
+  // Load cart when page loads
+  window.onload = () => {
+    updateCartUI();
+    Object.keys(cart).forEach(updateProductUI);
+  };
+
+  // Cart redirect
+  document.getElementById("cart-redirect").addEventListener("click", () => {
+    window.location.href = "cart.html";
+  });
+  document.querySelectorAll(".add-to-cart").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const productId = btn.dataset.id;
+    const productName = btn.dataset.name;
+    const productPrice = btn.dataset.price;
+
+    let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+
+    // Check if product already exists
+    const existingItem = cartItems.find((item) => item.id === productId);
+    if (existingItem) {
+      existingItem.quantity += 1;
+    } else {
+      cartItems.push({
+        id: productId,
+        name: productName,
+        price: productPrice,
+        quantity: 1,
+      });
+    }
+
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+
+    updateCartCount();
+  });
+});
+
+function updateCartCount() {
+  let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+  let totalCount = cartItems.reduce((sum, item) => sum + item.quantity, 0);
+  document.getElementById("cart-count").textContent = totalCount;
+}
+
+// Call it on page load too
+updateCartCount();
+
+
+
+
+
+
+</script>
+</body>
+</html>

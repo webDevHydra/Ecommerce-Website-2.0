@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="shortcut icon" href="Assets/img/Logo/Newie-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<script>
+    document.getElementById("shopping1").addEventListener("click", function() {
+    window.location.href = "dashboard.html";
+});
+
+document.getElementById("cart-redirect").addEventListener("click", function() {
+    window.location.href="cart.html"; 
+});
+</script>
+
+    <div class="header">
+        <h1><img src="Assets/img/Logo/Newie-removebg-preview.png" alt="Shopping Mart Logo" srcset="" height="90px"></h1>
+        <div class="deliver" id="deliver">
+            <i class="fas fa-light fa-location-dot"></i>
+            <p>Deliver to User <br>Mumbai - 400069</p>
+        </div>
+
+        <div class="search">
+            <div class="searchBox">
+                <select name="select" id="search-selection">
+                    <option value="">All</option>
+                    <option value="Mens">Mens</option>
+                    <option value="Womens">Womens</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Baby">Baby</option>
+                    <option value="Gift card">Gift card</option>
+
+
+                </select>
+            </div>
+            <div class="input">
+                <input type="text" id="searchInput" placeholder="Search on Shopping mart.in"/>
+            </div>
+            <div class="button">
+                <button type="submit" class="searchButton"><i class="fa-solid fa-magnifying-glass"></i></button>  
+            </div>
+            <div id="suggestions" class="suggestions-box"></div>
+        </div>
+
+        
+
+    <div class="cart-profile">
+        <div class="cart" id="cart-redirect">
+            <span class="cart-icon">
+                <i class="fas fa-light fa-cart-shopping"></i>
+            </span>
+            <span class="cart-items-count" id="cartItemCount">0</span>
+        </div>
+
+        <div class="profile">
+            <a href="dashboard.html"><i class="fa-regular fa-circle-user"></i></a>
+
+        </div>
+    </div>
+        <div class="bars">
+            
+            <i class="fas fa-regular fa-bars"></i><br>
+            
+            <div class="bars-icon-slidebar">
+                <button type="button"><a href="bars.html"><i class="fas fa-regular fa-bars" style="color: white;"></a></i></button><br><br>
+                
+                <ul>
+                    <li><a href="#"><h2>Your Orders</h2></a></li><br>
+                    <li><a href="#"><h2>Track Orders</h2></a></li><br>
+                    <li><a href="#"><h2>Wishlist</h2></a></li><br>
+                    <li><a href="#"><h2>Contact</h2></a></li><br>
+                </ul>
+            </div>
+        </div>
+        
+    
+
+        
+        
+    </div>
+    <hr>
+
+
+
+
+    <script>
+
+    </script>
+
+</body>
+</html>
